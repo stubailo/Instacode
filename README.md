@@ -25,4 +25,5 @@ For absolute beginners, this can be pretty daunting and I'm sure many give up ri
 
 There are a few solutions to this problem available now, but they aren't optimal:
 
-**Web-Based IDEs** Solutions like Nitrous.io ...
+- **Web-Based IDEs** - Solutions like Nitrous.io and Cloud9 are very easy to get started with, but often don't support full interaction with the VM.  Sometimes, they make you configure your app in specific ways to work inside their framework. Any solution designed for beginners should not require any non-standard configuration.
+- **Setting up a local Virtual Machine** - Virtual machine software lets you run a linux environment on your local machine, but this requires beginners to learn how to set up all of the settings and know their way around the guest operating system. This solution is the most complete and provides a very solid development environment, but requires a lot of complicated setup.
