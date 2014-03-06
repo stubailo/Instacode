@@ -1,9 +1,9 @@
 InstaCode
 ===============
 
-An instant-setup Linux based coding environment for beginners on Windows.
+One step setup Linux based coding environment for beginners on Windows.
 
-### Setting up a development environment is very hard for beginners
+### Setting up a development environment is hard for beginners
 
 Many programming tutorials assume the the reader:
 
@@ -23,7 +23,7 @@ For absolute beginners, this can be pretty daunting and I'm sure many give up ri
 
 ### Requirements
 
-- One-step installation
+- One-step installation with Windows installer
 - No need to learn terminal commands
 - Exact representation of Linux environment so there are no weird Windows-specific errors
 
@@ -37,7 +37,7 @@ There are a few solutions to this problem available now, but they aren't optimal
 
 ### Proposed Solution
 
-The solution that I think would offer the best experience is running a headless Ubuntu Server virtual machine with a Windows-based UI. This can be achieved by transparently downloading a VM image and running it in a headless VirtualBox, then setting up a shared folder and SSH connection.
+The solution that I think would offer the best experience is running a headless Ubuntu Server virtual machine, and attaching a Windows UI that can do common tasks like starting/stopping web servers and installing packages. This can be achieved by transparently downloading a VM image and running it in a headless VirtualBox, then setting up a shared folder and SSH connection.
 
 The user can then edit code in a Windows folder which is synced with a folder inside the VM, while also having access to a terminal that exactly represents a real Linux environment (because it is).
 
