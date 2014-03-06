@@ -15,7 +15,7 @@ Whenever you exit the Silicon Valley/University/Starbucks bubble, you see that m
 
 - Have Windows
 - Have never touched a terminal
-- Think Microsoft Word and TextEdit are text editors (to be fair, TextEdit has a confusing name)
+- Don't know what a text editor is in the context of programming
 
 According to [this Wikipedia article](http://en.wikipedia.org/wiki/Usage_share_of_operating_systems), Windows has over 90% market share. Since it is so hard to install modern development tools for Python, Ruby, and JavaScript on Windows, most people have a huge hurdle to overcome when they are trying to learn to code.
 
