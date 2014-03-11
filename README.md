@@ -49,3 +49,11 @@ Summary:
 - SSH connection and shared folder for interacting with VM
 - GUI for common tasks for beginners that don't want to learn terminal immediately
 - Bundled text editor
+
+### Cool Ideas
+
+Any hackathon project should have something cool or trendy about it.
+
+- Integrate [Atom](https://atom.io/)
+- One-step setup for popular frameworks like Rails, Node.js, Meteor, etc
+- Integrate with [Vagrant](http://www.vagrantup.com/), [Docker](https://www.docker.io/), or similar ([Vagrant Cloud](http://www.vagrantup.com/blog/vagrant-1-5-and-vagrant-cloud.html) in particular would be really cool to have)
