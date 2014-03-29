@@ -35,11 +35,10 @@
 @black:  #111;
 
 .background {
-  position: relative;
   background: darken(@teal, 20%);
   color: white;
-  height: 600px;
   overflow: hidden;
+  position: relative;
 
   h1 {
     margin-top: 350px;
@@ -54,22 +53,11 @@
     text-align: center;
   }
 
-  .container {
-    position: relative;
-    z-index: 100;
-  }
+  background-image: url(kid.jpg);
+  background-size: cover;
+}
 
-  .background-image {
-    left: -10px;
-    top: -10px;
-    right: -10px;
-    bottom: -10px;
-    position: absolute;
-    z-index: 1;
-
-    background-image: url(kid.jpg);
-    background-size: cover;
-
-    -webkit-filter: blur(1px) grayscale(.3) brightness(0.6) contrast(0.9);
-  }
+.static-container {
+  width: 800px;
+  margin: 0 auto;
 }
