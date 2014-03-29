@@ -16,6 +16,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # npm and stuff that depends on npm, like meteorite and ttyjs
   config.vm.provision :shell, :path => "npm.sh"
 
+  # ttyjs startup script
+  config.vm.provision :shell, :path => "startup.sh"
+
   config.vm.network :forwarded_port, host: 3000, guest: 3000
   config.vm.network :forwarded_port, host: 8080, guest: 8080
 end

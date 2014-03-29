@@ -1,0 +1,1 @@
+cp /vagrant/ttyjs.conf /etc/init/ttyjs.conf

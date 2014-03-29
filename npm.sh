@@ -4,5 +4,7 @@ add-apt-repository ppa:chris-lea/node.js
 apt-get update
 apt-get install -y nodejs
 
-npm install -g tty.js
+[ -z $(which tty.js) ] && npm install -g tty.js
 npm install -g meteorite
+
+sudo -u vagrant tty.js --daemonize --config "/home/vagrant/.tty.js/config.json"
