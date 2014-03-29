@@ -10,4 +10,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :privileged => false, :path => "install_meteor.sh"
   config.vm.provision :shell, :path => "install_ttyjs.sh"
   config.vm.network :forwarded_port, host: 3000, guest: 3000
+  config.vm.network :forwarded_port, host: 8080, guest: 8080
 end
