@@ -6,9 +6,16 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "hashicorp/precise32"
-  config.vm.provision :shell, :path => "install_meteor_dependencies.sh"
-  config.vm.provision :shell, :privileged => false, :path => "install_meteor.sh"
-  config.vm.provision :shell, :path => "install_ttyjs.sh"
+
+  # install random packages from apt-get like git and curl
+  config.vm.provision :shell, :path => "packages.sh"
+
+  # install meteor
+  config.vm.provision :shell, :privileged => false, :path => "meteor.sh"
+   
+  # npm and stuff that depends on npm, like meteorite and ttyjs
+  config.vm.provision :shell, :path => "npm.sh"
+
   config.vm.network :forwarded_port, host: 3000, guest: 3000
   config.vm.network :forwarded_port, host: 8080, guest: 8080
 end
