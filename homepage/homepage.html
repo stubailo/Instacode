@@ -1,0 +1,43 @@
+<head>
+  <title>homepage</title>
+</head>
+
+<body>
+  {{> hero}}
+</body>
+
+<template name="hero">
+  <div class="background">
+    <div class="background-image"></div>
+    <div class="container">
+      <h1>InstaCode</h1>
+      <p class="lead">The easiest way to start coding.<p>
+
+      <p><a class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-download"></span>
+        Download for Windows</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>What is InstaCode?</h3>
+
+        <p class="lead">InstaCode is a tool to help you start
+        programming with JavaScript, Python, Ruby, and many other languages.
+        It comes with:</p>
+
+        <ol>
+          <li>A code editor called Brackets</li>
+          <li>Pre-packaged installers for many different languages</li>
+          <li>GitHub integration for version control, sharing your code with others, and downloading examples</li>
+          <li>Some non-technical explanation of linux here</li>
+        </ol>
+
+        <p>Many programming tutorials online don't work very well for computers
+          that run Windows. etc etc</p>
+      </div>
+    </div>
+  </div>
+</template>
