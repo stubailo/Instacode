@@ -30,6 +30,3 @@ mv instacode-brackets-extensions/* ~/Library/Application\ Support/Brackets/exten
 
 cd ~/Documents
 git clone git@github.com:stubailo/InstaCode.git
-
-
-
