@@ -3,6 +3,8 @@ InstaCode
 
 One step setup Linux based coding environment for beginners on Windows.
 
+![image](http://www.getinstacode.com/screenshot.png)
+
 ### Setting up a development environment is hard for beginners
 
 Many programming tutorials assume the the reader:
