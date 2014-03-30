@@ -1,4 +1,8 @@
 ::echo off
+if not exist %userprofile%\Documents\InstaCode mkdir %userprofile%\Documents\InstaCode
+xcopy /s /y %CD%\..\InstaCode %userprofile%\Documents\InstaCode
+cd %userprofile%\Documents\InstaCode
+
 set vagrant=%CD%\msi\vagrant_1.5.1.msi
 set vb=%CD%\msi\VirtualBox-4.3.10-r93012-MultiArch_amd64.msi
 set brackets=%CD%\msi\brackets-sprint-37-WIN.msi
