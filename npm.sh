@@ -6,5 +6,3 @@ apt-get install -y nodejs
 
 [ -z $(which tty.js) ] && npm install -g tty.js
 npm install -g meteorite
-
-sudo -u vagrant tty.js --daemonize --config "/home/vagrant/.tty.js/config.json"
