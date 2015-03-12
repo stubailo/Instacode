@@ -1,4 +1,4 @@
-InstaCode
+Instacode
 ===============
 
 One step setup Linux based coding environment for beginners on Windows.
